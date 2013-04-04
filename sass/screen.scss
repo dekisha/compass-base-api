@@ -1,0 +1,32 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+ 
+/* apiEx api
+ * version: 0.1 alpha
+ * autor: dexterns88
+ * 
+ * This is base structure for compass css framework
+ * ============================================================================================== */
+
+
+@import "compass/css3";
+@import "compass/utilities";
+
+
+/* Compass main screan init
+ * ============================================================================================== */
+
+/* variable init */
+@import "apiEx/_var/_var";
+
+
+/* layout */
+@import "apiEx/layout";
+@import "apiEx/form";
+@import "apiEx/page";
+
+
+/* extend common */
+@import "apiEx/_extend/_extend";
